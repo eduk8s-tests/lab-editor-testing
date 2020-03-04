@@ -9,6 +9,9 @@ spec:
   url: https://github.com/eduk8s-tests/lab-theiaide-sample
   image: quay.io/eduk8s/workshop-dashboard:master
   session:
+    env:
+    - name: DOWNLOAD_URL
+      value: github.com/eduk8s-tests/lab-theiaide-sample
     patches:
       containers:
       - name: theia
