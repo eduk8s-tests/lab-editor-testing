@@ -1,0 +1,17 @@
+apiVersion: training.eduk8s.io/v1alpha1
+kind: Workshop
+metadata:
+  name: lab-theiaide-sample
+spec:
+  vendor: eduk8s.io
+  title: Theia IDE Sample
+  description: A sample workshop using the Theia IDE
+  url: https://github.com/eduk8s-tests/lab-theiaide-sample
+  image: quay.io/eduk8s/lab-workshop-dashboard:master
+  session:
+    patches:
+      containers:
+      - name: theia
+        image: theiaide/theia:next
+    ingress:
+    - name: theia

@@ -1,0 +1,6 @@
+proxies:
+- name: theia
+  port: 3000
+panels:
+- name: Theia
+  url: "$(ingress_protocol)://$(session_namespace)-theia.$(ingress_domain)/"
