@@ -7,7 +7,7 @@ spec:
   title: Theia IDE Sample
   description: A sample workshop using the Theia IDE
   url: https://github.com/eduk8s-tests/lab-theiaide-sample
-  image: quay.io/eduk8s/lab-workshop-dashboard:master
+  image: quay.io/eduk8s/workshop-dashboard:master
   session:
     patches:
       containers:
