@@ -1,6 +1,6 @@
-proxies:
-- name: theia
-  port: 3000
+groxies:
+- name: editor
+  port: 10085
 panels:
-- name: Theia
-  url: "$(ingress_protocol)://$(session_namespace)-theia.$(ingress_domain)/"
+- name: Editor
+  url: "$(ingress_protocol)://$(session_namespace)-editor.$(ingress_domain)/"
