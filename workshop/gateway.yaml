@@ -1,4 +1,4 @@
-groxies:
+proxies:
 - name: editor
   port: 10085
 panels:

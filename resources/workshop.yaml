@@ -12,5 +12,7 @@ spec:
     env:
     - name: DOWNLOAD_URL
       value: github.com/eduk8s-tests/lab-theiaide-sample
+    - name: ENABLE_EDITOR
+      value: "true"
     ingress:
     - name: editor
