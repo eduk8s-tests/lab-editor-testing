@@ -1,4 +1,4 @@
-name: OpenShift Sample
+name: Editor Testing
 
 modules:
     activate:

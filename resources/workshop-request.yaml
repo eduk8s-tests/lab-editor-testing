@@ -1,8 +1,0 @@
-apiVersion: training.eduk8s.io/v1alpha1
-kind: WorkshopRequest
-metadata:
-  name: lab-theiaide-sample
-spec:
-  environment:
-    name: lab-theiaide-sample
-    token: lab-theiaide-sample
