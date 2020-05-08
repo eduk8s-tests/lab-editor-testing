@@ -17,6 +17,6 @@ spec:
     applications:
       terminal:
         enabled: true
-        layout: split/2
+        layout: split
       editor:
         enabled: true
