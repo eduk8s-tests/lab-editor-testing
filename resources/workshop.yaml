@@ -20,3 +20,5 @@ spec:
         layout: split
       editor:
         enabled: true
+        plugins:
+          enabled: true
